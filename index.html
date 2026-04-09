@@ -1,0 +1,235 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-------------navbar---------------->
+    <div id="home">
+        <div class="navbar">
+            <img src="public/logo.png" class="logo">
+            <p class="logoname"> <span>V</span>ic<span>S</span>TAR </p>
+
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                <img src="public/pic.png" class="menu-image">
+                <p> <span>V</span>ic<span>S</span>TAR </p>
+
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </div>
+
+        <!---------------home---------------->
+
+        <div class="info">
+           <h3> Hi, I'm <span> Victor Manee </span></h3>
+           <h1> <span>S</span>OFTWARE<span> E</span>NGINEER </h1>
+           <h3>I am a software engineer with a passion for creating innovative solutions. <br>I have experience in various programming languages and frameworks,<br> and I am always eager to learn new technologies. </h3>
+           <a href="https://api.whatsapp.com/send?phone=+254716802450&text=Hello%20Victor%20I%20am%20interested%20in%20hiring%20you."> Hire Me</a>
+        </div>
+
+        <div class="image">
+            <img src="public/pic.png" class="me">
+        </div>
+
+        <div class="icons">
+            <a href="https://www.instagram.com/_vic_star/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://api.whatsapp.com/send?phone=+254716802450&text=Hello%20Victor%20"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            <a href="https://www.facebook.com/vic0star"><ion-icon name="logo-facebook"></ion-icon></a>
+        </div>
+    </div>
+
+    <!-----------------about---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="first-column-about">
+                    <img src="public/pic (4).png">
+                </div>
+                <div class="second-column-about">
+                    <h1 class="sub-title"> About Me </h1>
+                    <p> I am a student and aspiring tech creator passionate about building practical digital solutions that solve real-world problems. <br>
+                        I enjoy working on innovative projects, exploring AI, and designing systems that improve productivity, learning, and everyday experiences. <br>
+                        I am constantly learning, experimenting, and turning ideas into functional products <br>
+                        while growing my skills in software development and technology.<br> </p>
+                   
+                    <div class="tab-titles">
+                    <p class="tab-link active-link" onclick="opentab('skills')"> skills </p>
+                    <p class="tab-link" onclick="opentab('experience')"> experience </p>
+                    <p class="tab-link" onclick="opentab('education')"> education </p>
+                   </div>
+<!--------------------skills------------------>
+                   <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span> Python </span> <br> I have experience in Python programming and its various frameworks.</li>
+                            <li><span> JavaScript </span> <br> I am proficient in JavaScript and its ecosystem.</li>
+                            <li><span> HTML/CSS </span> <br> I have a strong foundation in HTML and CSS for creating responsive designs.</li>
+                            <li><span> React </span> I have experience building user interfaces with React.</li>
+                            <li><span> Node.js </span> I have worked with Node.js for backend development.</li>
+                        </ul>
+                    </div>
+<!--------------------experience------------------>
+
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span> Software Engineer </span> <br> I have experience in Python programming and its various frameworks.</li>
+                            <li><span> Web Developer </span> <br> I am proficient in JavaScript and its ecosystem.</li>
+                            <li><span> UI/UX Designer </span> <br> I have a strong foundation in HTML and CSS for creating responsive designs.</li>
+                        </ul>
+                    </div>
+
+<!--------------------education------------------>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span> Bachelor of Science in Computer Science </span> <br> I have a degree in Computer Science from Strathmore University.</li>
+                            <li><span> Master of Science in Software Engineering </span> <br> I have a master's degree in Software Engineering.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!-----------------projects--------------------->   
+ <div id="projects">
+    <div class="container">
+        <h1 class="sub-title"> My Projects </h1>
+        <div class="projects-list">
+            <div>
+                <img src="public/access logo.png" alt="ACCESS Logo">
+                <h2> ACCESS </h2>
+                <p> ACCESS is a career information platform that connects students with opportunities, guidance, and mentorship across different fields. 
+                    It provides structured career insights, resources, and interactive features to help students make informed decisions about their future paths.</p>
+                <a href="#websites-more-info"> Learn More </a>
+            </div>
+
+            <div>
+                <img src="public/mwanacheck logo.png" alt="MwanaCheck Logo">
+                <h2> MwanaCheck </h2>
+                <p> MwanaCheck is a student monitoring system that tracks academic performance, discipline, co-curricular activities, and financial progress in one platform. 
+                    It helps schools and parents stay informed through real-time insights, structured reports, and smart notifications to support student growth and accountability.</p>
+                <a href="#websites-more-info"> Learn More </a>
+            </div>
+
+            <div>
+                <img src="public/nextech logo.png" alt="NexTech Logo">
+                <h2> NexTech </h2>
+                <p> NexTech is a collaborative tech community focused on turning innovative ideas into real-world digital products. It brings together student creators to build, support, 
+                    and launch projects across different fields, fostering teamwork, leadership, and technology-driven impact..</p>
+                <a href="#websites-more-info"> Learn More </a>
+            </div>
+        </div>
+    </div>
+
+<!-----------------projects-more info--------------------->
+    <div id="websites-more-info">
+        <div class="container">
+            <h1 class="sub-title"> More Information </h1>
+            <div class="website-list">
+                <div class="website">
+                    <img src="public/access-img.png">
+                    <div class="layer">
+                    <h3> ACCESS </h3>
+                    <p> ACCESS is a career information platform <br>
+                        that connects students with opportunities, guidance,<br> 
+                        and mentorship across different fields. 
+                    It provides structured career insights, resources, <br> 
+                    and interactive features to help students make informed decisions about their future paths.</p>
+                    <a href="https://access-career.vercel.app"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="website">
+                    <img src="public/mwanacheck-img.png">
+                    <div class="layer">
+                    <h3> MwanaCheck </h3>
+                    <p> MwanaCheck is a student monitoring system that tracks academic performance, discipline, co-curricular activities, and financial progress in one platform. 
+                    It helps schools and parents stay informed through real-time insights, structured reports, and smart notifications to support student growth and accountability.</p>
+                    <a href="https://mwanacheck.vercel.app"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="website">
+                    <img src="public/nextech-img.jpg">
+                    <div class="layer">
+                    <h3> NexTech </h3>
+                    <p> NexTech is a collaborative tech community focused on turning innovative ideas into real-world digital products. It brings together student creators to build, support, 
+                    and launch projects across different fields, fostering teamwork, leadership, and technology-driven impact..</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <!-----------------contact--------------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> vfrancis4763@gmail.com </p>
+                <p><i class="fas fa-phone-square-alt"></i> +254 716 802 450</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_vic_star/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=+254716802450&text=Hello%20Victor%20"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/vic0star"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div id="copyright">
+        <p>&copy; 2026 Victor's Portfolio. All rights reserved.</p>
+    </div>
+
+   <!-----------------------javascript------------------->  
+    <script>
+        function opentab(tabname){
+            let tablinks = document.getElementsByClassName("tab-link");
+            let tabcontents = document.getElementsByClassName("tab-content");
+
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/fb2582f71c.js" crossorigin="anonymous"></script>
+</body>
+</html>
