@@ -492,7 +492,7 @@ form input, form textarea{
         display: block;
         margin: 25px;
     }
-    .navbar ul li a:hover{
+    .sidemenu li:hover{
         font-color: #ff0;
     }
     .navbar ul .fas{
@@ -536,6 +536,7 @@ form input, form textarea{
         flex-basis: 100%;
     }
     .menu-image{
+        display: block;
         position: absolute;
         bottom: 0;
         width: 300px;
@@ -547,7 +548,18 @@ form input, form textarea{
         transform: translateX(-20%);
         transition: transform 1s ease;
     }
+    .menu-name{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 300px;
+        margin-top: 20px;
+        margin-right: 10px;
+        transition: 1s;
+
+    }
     .navbar ul p{
+        display: block;
         top: 30px;
         font-size: 15px;
         font-weight: 300;
