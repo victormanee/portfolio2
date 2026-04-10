@@ -456,7 +456,7 @@ form input, form textarea{
     font-weight: 300;
 }
 
-.navbar .fas, .menu-image, .navbar ul p{
+.navbar .fas, .menu-image, .navbar ul p, .click{
     display: none;
 }
 
@@ -575,6 +575,9 @@ form input, form textarea{
         padding: 6px;
         border-radius: 50%;
         transition: 1s ease;
+    }
+    .click{
+        display: block;
     }
 
     
